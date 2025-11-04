@@ -2,6 +2,12 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- 🚨 Keep only the permissions used in your app - Podria provocar rechazo de despliegue en las tiendas de aplicaciones 🚨 -->
+  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <!-- … -->
+
     <application
       android:name=".MainApplication"
       android:label="@string/app_name"
